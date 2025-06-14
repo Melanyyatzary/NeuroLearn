@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NeuroLearn | Inicio</title>
+  <style>
+    :root {
+      --color-primario: #4fb6e9;
+      --color-secundario: #a0ddf5;
+      --color-texto: #003366;
+      --color-fondo: #daf3fd;
+      --color-subtitulo: #005b96;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--color-fondo);
+      color: var(--color-texto);
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: var(--color-primario);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+    }
+
+    nav {
+      background-color: var(--color-secundario);
+      text-align: center;
+      padding: 15px;
+    }
+
+    nav a {
+      color: var(--color-texto);
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+      font-size: 1rem;
+      display: inline-block;
+      padding: 8px 12px;
+      transition: color 0.3s, background-color 0.3s;
+    }
+
+    nav a:hover {
+      color: #0077b6;
+      background-color: rgba(255, 255, 255, 0.3);
+      border-radius: 5px;
+    }
+
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      color: var(--color-subtitulo);
+      margin-bottom: 20px;
+    }
+
+    section p {
+      max-width: 800px;
+      margin: 0 auto 20px;
+      font-size: 1.2rem;
+      padding: 0 10px;
+    }
+
+    img {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      border-radius: 20px;
+      box-shadow: 0 0 15px #92d1eb;
+    }
+
+    footer {
+      background-color: var(--color-primario);
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      margin-top: 50px;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      nav {
+        padding: 10px;
+      }
+
+      nav a {
+        display: block;
+        margin: 10px auto;
+        font-size: 1rem;
+      }
+
+      section {
+        padding: 30px 15px;
+      }
+
+      section h2 {
+        font-size: 1.6rem;
+      }
+
+      section p {
+        font-size: 1rem;
+      }
+
+      footer {
+        font-size: 0.8rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      header h1 {
+        font-size: 1.6rem;
+      }
+
+      section h2 {
+        font-size: 1.4rem;
+      }
+
+      section p {
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>NeuroLearn</h1>
+    <p>Un sitio educativo para apoyar el aprendizaje de personas con Dislexia y TDAH</p>
+  </header>
+
+  <nav>
+    <a href="frames.html">Actividades</a>
+    <a href="recursos.html">Recursos</a>
+    <a href="galeria.html">Galería</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+
+  <section>
+    <h2>Bienvenid@</h2>
+    <p>
+      ¡Hola! Bienvenidos a nuestro sitio web educativo. Podrás desarrollar lectura y escritura de manera divertida con juegos, imágenes, videos y más.  
+      <br> El contenido está diseñado especialmente para facilitar el aprendizaje.
+    </p>
+    <img src="imagenes/bienvenido.jpg" alt="Bienvenida educativa">
+  </section>
+
+  <footer>
+    NeuroLearn | Última actualización: junio 2025 | Creado por Melany Hernandez
+  </footer>
+
+</body>
+</html>

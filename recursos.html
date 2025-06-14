@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NeuroLearn | Recursos</title>
+  <style>
+    body {
+      background-color: #e3f2fd;
+      font-family: 'Comic Sans MS', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #0d47a1;
+    }
+
+    header {
+      background-color: #bbdefb;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2em;
+      margin: 0;
+    }
+
+    nav {
+      background-color: #90caf9;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #0d47a1;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    .recurso {
+      margin-bottom: 30px;
+      background-color: #ffffff;
+      padding: 15px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .recurso img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .tabla {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    .tabla th, .tabla td {
+      border: 1px solid #64b5f6;
+      padding: 10px;
+      text-align: left;
+    }
+
+    .tabla th {
+      background-color: #64b5f6;
+      color: white;
+    }
+
+    #mas {
+      background-color: #e1f5fe;
+      padding: 20px;
+      margin-top: 40px;
+      border-radius: 15px;
+    }
+
+    .boton {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #42a5f5;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #bbdefb;
+      padding: 15px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #0d47a1;
+    }
+    
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      nav {
+        padding: 10px;
+      }
+
+      nav a {
+        display: block;
+        margin: 10px auto;
+        font-size: 1rem;
+      }
+
+      section {
+        padding: 30px 15px;
+      }
+
+      section h2 {
+        font-size: 1.6rem;
+      }
+
+      section p {
+        font-size: 1rem;
+      }
+
+      footer {
+        font-size: 0.8rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      header h1 {
+        font-size: 1.6rem;
+      }
+
+      section h2 {
+        font-size: 1.4rem;
+      }
+
+      section p {
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header id="arriba">
+    <h1>Recursos para tu aprendizaje</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="#mas">Ir a más recursos</a>
+  </nav>
+
+  <section>
+    <div class="recurso">
+      <h2>App de concentración</h2>
+      <a href="https://apkpure.com/es/forest-focus-for-productivity/cc.forestapp" target="_blank">
+        <img src="imagenes/forest.png" alt="Forest App" />
+      </a>
+      <p>Haz clic en la imagen para visitar una app que ayuda a mantener el enfoque y evitar distracciones. 🌲</p>
+    </div>
+
+    <div class="recurso">
+      <h2>App visual para organizar tareas</h2>
+      <a href="https://trello.com" target="_blank">
+        <img src="imagenes/trello.png" alt="Trello para tareas" />
+      </a>
+      <p>Haz clic en la imagen para usar un tablero visual que te ayudará a recordar tus tareas. 📌</p>
+    </div>
+
+    <div class="recurso">
+      <h2>Video: Técnicas de estudio para TDA</h2>
+      <a href="https://youtu.be/yKV5-ly6Cn8?si=wjuRgWxafqTV0kFc" target="_blank">
+        <img src="imagenes/tdahinfancia.jpg" alt="Haz clic para ver el video" />
+      </a>
+      <p>Haz clic en la imagen para ver un video con estrategias para estudiar mejor si tienes TDAH o dislexia. 🎧</p>
+    </div>
+
+  </section>
+
+  <section id="mas">
+    <h2>Más recursos útiles</h2>
+
+    <table class="tabla">
+      <tr>
+        <th>Recurso</th>
+        <th>Tipo</th>
+        <th>Utilidad</th>
+      </tr>
+      <tr>
+        <td>Forest</td>
+        <td>App</td>
+        <td>Evita distracciones y mantiene el enfoque</td>
+      </tr>
+      <tr>
+        <td>Trello</td>
+        <td>Web</td>
+        <td>Organiza tareas con tarjetas visuales</td>
+      </tr>
+      <tr>
+        <td>Video técnicas de estudio</td>
+        <td>Video</td>
+        <td>Técnicas de estudio para estudiantes con TDAH</td>
+      </tr>
+    </table>
+
+    <a class="boton" href="#arriba">Volver arriba ⬆</a>
+  </section>
+
+  <footer>
+    <p>NeuroLearn | Última actualización: junio 2025 | Creado por Melany Hernandez</p>
+    <p>Páginas consultadas: forestapp.cc, trello.com, youtube.com</p>
+  </footer>
+</body>
+</html>
